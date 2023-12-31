@@ -38,6 +38,18 @@ TagManager:
   - 
   - 
   m_SortingLayers:
+  - name: BackGround
+    uniqueID: 1339662529
+    locked: 0
+  - name: ForceGround
+    uniqueID: 1974882197
+    locked: 0
+  - name: Bird
+    uniqueID: 1931970217
+    locked: 0
+  - name: Front
+    uniqueID: 3723330019
+    locked: 0
   - name: Default
     uniqueID: 0
     locked: 0
