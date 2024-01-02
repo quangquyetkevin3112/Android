@@ -3,7 +3,14 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Ball
+  - Sticker
+  - DeadZone
+  - Brick
+  - Wall_T
+  - Wall_R
+  - Wall_L
   layers:
   - Default
   - TransparentFX

@@ -66,7 +66,7 @@ public class UiManager_BC : Singleton<UiManager_BC>
         if (this.pauseDialog)
         {
             this.pauseDialog.Show(true);
-            this.pauseDialog.UpdateDialog("YOUR BEST", "BEST KILLED : x" + Prefs.bestScore);
+            this.pauseDialog.UpdateDialog("YOUR BEST", "BEST KILLED : x" + Prefs_BC.bestScore);
             m_curDiaLog = pauseDialog;
         }
     }

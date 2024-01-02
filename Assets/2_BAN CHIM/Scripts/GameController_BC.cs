@@ -47,17 +47,17 @@ public class GameController_BC : Singleton<GameController_BC>
             {
                 this.m_isGameOver = true;
 
-                if (this.m_birdKilled > Prefs.bestScore)
+                if (this.m_birdKilled > Prefs_BC.bestScore)
                 {
                     UiManager_BC.Ins.gameDialog.UpdateDialog("NEW BEST", "BEST KILLED : x" + m_birdKilled);
                 }
                 else
                 {
-                    UiManager_BC.Ins.gameDialog.UpdateDialog("YOUR BEST", "BEST KILLED : x" + Prefs.bestScore);
+                    UiManager_BC.Ins.gameDialog.UpdateDialog("YOUR BEST", "BEST KILLED : x" + Prefs_BC.bestScore);
                 }
                 UiManager_BC.Ins.gameDialog.Show(true);
                 UiManager_BC.Ins.Dialog = UiManager_BC.Ins.gameDialog;
-                Prefs.bestScore = this.m_birdKilled;
+                Prefs_BC.bestScore = this.m_birdKilled;
             }
             UiManager_BC.Ins.UpdateTimer(IntToTime(this.m_timeCountingDown));
         }
