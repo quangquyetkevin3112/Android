@@ -11,4 +11,7 @@ public static class TagConsts
     public const string Wall_Top = "Wall_T";
     public const string Wall_Right = "Wall_R";
     public const string Wall_Left = "Wall_L";
+    public const string Player = "Player";
+    public const string Ground = "Ground";
+    public const string Platform = "Platform";
 }

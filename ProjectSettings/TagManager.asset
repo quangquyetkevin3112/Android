@@ -11,6 +11,8 @@ TagManager:
   - Wall_T
   - Wall_R
   - Wall_L
+  - Ground
+  - Platform
   layers:
   - Default
   - TransparentFX
