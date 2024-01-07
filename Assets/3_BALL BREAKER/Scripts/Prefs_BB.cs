@@ -5,7 +5,7 @@ using UnityEngine;
 
 public static class Prefs_BB 
 {
-    public static bool hasNewBest;
+    public static bool hasNewBest; // thanh tich moi
     public static void SetBool(bool isTrue, string key)
     {
         if (isTrue)
@@ -40,16 +40,19 @@ public static class Prefs_BB
         }
     }
 
+    //kiem tra level nao mo khoa
     public static bool IsLevelUnlocked(int level)
     {
         return GetBool(PrefConsts_BB.Level_Unlocked + level);
     }
 
+    //kiem tra level khi hoan thanh
     public static bool IsLevelPassed(int level)
     {
         return GetBool(PrefConsts_BB.Level_Passed + level);
     }
 
+    // xet trang thai level mo khoa hay chua
     public static void SetLevelUnlocked(int level, bool unlock)
     {
         SetBool(unlock, PrefConsts_BB.Level_Unlocked + level);

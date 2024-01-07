@@ -43,13 +43,13 @@ public class Sticker_BB : MonoBehaviour
 
     protected virtual void LimitPos()
     {
-        if (transform.position.x >= 1.5)
+        if (transform.position.x >= 2)
         {
-            transform.position = new Vector3(1.5f, transform.position.y, transform.position.z);
+            transform.position = new Vector3(2, transform.position.y, transform.position.z);
         }
-        else if (transform.position.x <= -1.5f)
+        else if (transform.position.x <= -2)
         {
-            transform.position = new Vector3(-1.5f, transform.position.y, transform.position.z);
+            transform.position = new Vector3(-2, transform.position.y, transform.position.z);
         }
     }
 }

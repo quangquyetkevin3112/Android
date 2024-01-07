@@ -30,6 +30,7 @@ public class LevelButton : MonoBehaviour
             m_btnCom.onClick.AddListener(() => GoToLevel());
         }
 
+        // chua choi game
         if (!Prefs_BB.IsGameEntered())
         {
             Prefs_BB.SetLevelUnlocked(levelGoTo, isUnlocked);

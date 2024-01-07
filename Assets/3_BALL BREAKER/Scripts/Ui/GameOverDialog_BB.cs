@@ -33,7 +33,7 @@ public class GameOverDialog_BB : Dialog
     public virtual void Home()
     {
         Time.timeScale = 1;
-        SceneManager.LoadScene("BALL BREAKER");
+        SceneManager.LoadScene("MAIN_BB");
     }
 
     public virtual void Exit()
