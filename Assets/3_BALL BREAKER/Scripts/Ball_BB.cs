@@ -30,7 +30,7 @@ public class Ball_BB : MonoBehaviour
             m_isTriggerd = true;
             m_rb.isKinematic = false;
             m_rb.AddForce(new Vector2(moveForce, moveForce));
-            transform.parent.SetParent(null);
+            transform.SetParent(null);
         }
     }
 
@@ -55,7 +55,6 @@ public class Ball_BB : MonoBehaviour
             }
             else if (this.m_rb.velocity.x < 0)
             {
-                this.m_rb.velocity = Vector2.zero;
                 this.m_rb.AddForce(new Vector2(-this.moveForce, this.moveForce));
             }
         }

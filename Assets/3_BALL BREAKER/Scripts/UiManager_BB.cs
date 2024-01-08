@@ -43,7 +43,7 @@ public class UiManager_BB : Singleton<UiManager_BB>
 
     public virtual void BackToHome()
     {
-        SceneManager.LoadScene("BALL BREAKER");
+        SceneManager.LoadScene("MAIN_BB");
     }
 
     public virtual void PauseGame()

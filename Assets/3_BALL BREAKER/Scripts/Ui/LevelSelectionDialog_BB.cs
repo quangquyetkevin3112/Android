@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class LevelSelection_BB : Dialog
+public class LevelSelectionDialog_BB : Dialog
 {
     
 }

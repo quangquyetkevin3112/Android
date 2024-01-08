@@ -10,13 +10,13 @@ public class GameController_BB : Singleton<GameController_BB>
     int m_curTimeDelay;
 
     int m_level;
-    public int Level => m_level;
+    public int Level { get => m_level;  }
 
     int m_score;
     public int Score { get => m_score; set => m_score = value; }
 
     BrickManager_BB m_levelObj;
-    public BrickManager_BB LevelObj { get => m_levelObj; set => m_levelObj = value; }
+    public BrickManager_BB LevelObj { get => m_levelObj; }
 
     public override void Awake()
     {
