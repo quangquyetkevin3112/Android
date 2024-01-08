@@ -13,6 +13,7 @@ TagManager:
   - Wall_L
   - Ground
   - Platform
+  - Obstacle
   layers:
   - Default
   - TransparentFX
@@ -52,6 +53,9 @@ TagManager:
     locked: 0
   - name: ForceGround
     uniqueID: 1974882197
+    locked: 0
+  - name: Obstacle
+    uniqueID: 2622693449
     locked: 0
   - name: Bird
     uniqueID: 1931970217

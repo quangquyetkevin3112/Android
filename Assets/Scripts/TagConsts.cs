@@ -14,4 +14,6 @@ public static class TagConsts
     public const string Player = "Player";
     public const string Ground = "Ground";
     public const string Platform = "Platform";
+    public const string Obstacle = "Obstacle";
+
 }
