@@ -15,5 +15,7 @@ public static class TagConsts
     public const string Ground = "Ground";
     public const string Platform = "Platform";
     public const string Obstacle = "Obstacle";
-
+    public const int Scissors = 1;
+    public const int Paper = 2;
+    public const int Rock = 3;
 }
