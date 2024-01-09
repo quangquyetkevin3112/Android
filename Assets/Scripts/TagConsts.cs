@@ -18,4 +18,6 @@ public static class TagConsts
     public const int Scissors = 1;
     public const int Paper = 2;
     public const int Rock = 3;
+    public const string Head = "Head";
+    public const string Apple = "Apple";
 }
